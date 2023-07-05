@@ -142,8 +142,4 @@ public class SpringSecurityDemoApplication {
 
 #### 9.SpringSecurity原理
 
-##### 9.1.认证
-
-
-##### 9.2.授权
 
