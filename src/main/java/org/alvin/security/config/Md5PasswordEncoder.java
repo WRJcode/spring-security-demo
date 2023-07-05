@@ -2,6 +2,9 @@ package org.alvin.security.config;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
 
+/**
+ * 自定义密码加密器
+ */
 public class Md5PasswordEncoder implements PasswordEncoder {
     @Override
     public String encode(CharSequence rawPassword) {

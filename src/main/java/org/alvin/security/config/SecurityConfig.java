@@ -2,10 +2,8 @@ package org.alvin.security.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.*;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
-import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.Authentication;
@@ -25,6 +23,7 @@ import java.util.Map;
  * 注解开启基于注解的安全配置
  * prePostEnabled = true 会解析@PreAuthorize @PostAuthorize这两个注解
  * securedEnabled = true 会解析@Secured这个注解
+ * 基于内存的认证
  */
 //@Configuration
 //@EnableGlobalMethodSecurity(prePostEnabled=true,securedEnabled = true)
